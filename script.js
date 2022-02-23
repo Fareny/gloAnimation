@@ -39,28 +39,3 @@ reset.addEventListener('click', () => {
     cancelAnimationFrame(idInterval);
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-// start.addEventListener('click', () => {
-//     animate();
-// });
-
-// stop.addEventListener('click', () => {
-//     if (active) {
-//         cancelAnimationFrame(interval);
-//         active = false;
-//     } else {
-//         interval = requestAnimationFrame(animate);
-//         active = true;
-//     }
-// });
